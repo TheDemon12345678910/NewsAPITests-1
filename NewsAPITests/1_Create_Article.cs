@@ -18,7 +18,7 @@ public class CreateArticle
 
 
     [Test]
-    public async Task ShouldSuccessfullyCreateBook()
+    public async Task ShouldSuccessfullyCreateArticle()
     {
         Helper.TriggerRebuild();
         var article = new Article()
